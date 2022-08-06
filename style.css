@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,15 +13,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .profile_child{
     width: 40%;    
-    background-color: white;
+    background-color: rgba(255,255,255,.2);
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 20px;
+    text-align: center;
+    border-radius: 15px;
   
 }
 .pro_img{
@@ -30,4 +40,101 @@
 }
 .profile_pic{
     width: 100%;
+}
+.name{
+    font-size: 60px;
+    font-weight: 300;
+    color: white;
+    font-family: 'Lobster', cursive;
+
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Segoe UI;
+    color: white;
+}
+
+.icons{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    column-gap: 20px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+
+/* projects css */
+
+.projects{
+    
+    height: 100vh;
+    padding: 50px 10%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.section_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+.works{
+   
+    width: 100%;
+    background-color: white;
+    padding-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.25%;
+    row-gap: 20px;
+}
+
+.work{
+    height: 300px;
+    width: 24%;
+    background-color: red;   
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.work:nth-child(1){
+    background-image: url('media/Clothing.jpg');
+}
+
+.work_detail{
+    background-color: rgba(0,0,0,.7);
+    min-height: 0px;
+    width: 100%;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    transition: 0.3s;
+}
+
+.work_detail:hover{
+    min-height: 50%;
+}
+
+.link{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
