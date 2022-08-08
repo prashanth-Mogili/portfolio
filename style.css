@@ -112,8 +112,36 @@ i:hover{
 }
 
 .work:nth-child(1){
+    background-image: url('media/Bike.jpg');
+}
+.work:nth-child(2){
+    background-image: url('media/car.jpg');
+}
+.work:nth-child(3){
+    background-image: url('media/City\ view.jpg');
+}
+
+.work:nth-child(4){
     background-image: url('media/Clothing.jpg');
 }
+
+.work:nth-child(5){
+    background-image: url('media/Coding.jpg');
+}
+
+.work:nth-child(6){
+    background-image: url('media/Maldives.jpg');
+}
+
+.work:nth-child(7){
+    background-image: url('media/photography.jpg');
+}
+.work:nth-child(8){
+    background-image: url('media/Scenario.jpg');
+}
+
+
+
 
 .work_detail{
     background-color: rgba(0,0,0,.7);
