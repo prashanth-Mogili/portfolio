@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); */
 
 *{
     margin: 0px;
@@ -55,6 +55,10 @@
     font-family: Segoe UI;
     color: white;
 }
+
+/* #dynText{
+    color: rgb(10, 20, 130);
+} */
 
 .icons{
     font-size: 35px;
