@@ -60,6 +60,27 @@
     color: rgb(10, 20, 130);
 } */
 
+/* contact styles */
+
+form#contact{
+    max-width: 300px;
+    margin: auto;
+    padding: 16px;
+    border: 1px solid;
+    border-radius: 16px;
+}
+
+#contact label{
+    display: block;
+    font-weight: 600;
+}
+
+#contact input,#contact textarea, #contact button{
+    width: 100%;
+}
+
+
+/* contact styles */
 .icons{
     font-size: 35px;
     color: white;
