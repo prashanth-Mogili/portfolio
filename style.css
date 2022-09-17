@@ -61,8 +61,7 @@
 } */
 
 /* contact styles */
-
-form#contact{
+#contact{
     max-width: 300px;
     margin: auto;
     padding: 16px;
@@ -78,7 +77,6 @@ form#contact{
 #contact input,#contact textarea, #contact button{
     width: 100%;
 }
-
 
 /* contact styles */
 .icons{
